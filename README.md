@@ -1,5 +1,8 @@
 # OTHERNET acceso libre a datos desde el espacio
-Este repositorio recoge manuales, codigo fuente, archivos y recursos necesarios para crear enlaces permanetes con los diferentes servicios de Othernet. Estos servicios son de contenidos web, chat y archivos servidos desde el satélite geostacionario Astra 3B en banda Ku para la emisión para Europa central con azimut 23.5E
+En torno a un servicio de broadcast digital de datos desde satélites geostacionarios. Othernet provee a pequeños dispotivos locales o _hostpots_ de repositorios de datos metereológicos, noticias, Wikipedia, mesanjes y archivos que pueden ser compartidos en el segmento terrestre. 
+Para Europa central tenemos el acceso a través del satélite Astra 3B, orientación 23.5E que opera en banda Ku.
 
 ## Historia
+Inspirado en el proyecto [RACHEL](https://worldpossible.org/) que provee de una plataforma autónoma de contenidos y formación como punto de acceso wifi allí donde no hay internet. 
 
+Actualmente es un empresa que está en Chicago (Ilinois USA)
