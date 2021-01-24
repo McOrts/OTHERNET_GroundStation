@@ -23,5 +23,8 @@ En 2020 el proyecto se consolida como una empresa M2M en Chicago (Ilinois USA) c
 
 Y es aqui cuando me reengancho adquiriendo el Dreamcatcher, reciclando una antena parabólica offset de 120 cm y poniendo todos mis conocimientos técnicos en marcha para hacer mi _primer contacto_.
 
+## Cobertura
+Como hemos dicho estamos apuntando al Astra 3B y tenemos un recepto de banda Ku. Para asegurarnos de la covertura geográfica estos son datos suficientes. Acudiremos a una aplicación que calcule el PIRE para nuestra zona como [SatBeams](https://www.satbeams.com/footprints). 
+<img src="./img/Astra3B_footprint.png" align="center" />4
 
- 
+El PIRE es la Potencia Isotrópica Radiada Equivalente. Simplificando mucho, este dato nos indica la potencia con la que llega la señal. Por tanto, cuanto más bajo sea este dato, más débil es la potencia de la señal y, como consecuencia, mayor diámetro de parabólica necesitaremos. En mi localización la recomendación es de una parábola de 60cm y yo estoy utilizando justo el doble. Lo que debería mejorar la recepción.
