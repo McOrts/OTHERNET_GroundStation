@@ -1,6 +1,6 @@
 # OTHERNET acceso libre a datos desde el espacio
 Resumiendo [OTHERNET](https://othernet.is/) es un servicio en torno a una emisión broadcast digital de datos desde satélites geostacionarios. 
-<img src="./img/outernet-what-is.png" width=300  align="left" />
+<img src="./img/outernet-what-is.png" width=300  align="right" />
 
 Othernet provee a pequeños dispotivos locales o _hostpots_ de repositorios de datos metereológicos, noticias, Wikipedia, mensajes y archivos que pueden ser compartidos en el segmento terrestre. 
 
@@ -23,13 +23,13 @@ Por otra parte ya había pasado más de una año tras completarse la campaña y 
 
 </br>
 En 2018 el proyecto se renombra a Othernet y transita por una serie de diseños de receptor y acuerdos con otros proveedores de satélites. Hasta que en 2020 el proyecto se consolida como una empresa M2M en Chicago (Ilinois USA) con Syed Karim a la cabeza como CEO. Y define una solución más comercial y menos _maker_. Un modem-punto de acceso propio basado en arquitectura ARM con receptor de banda Ku y decodificación LoRa. Lo que da un ancho de banda de solo 20 Kbaudios pero suficiente para el tipo de contenidos que se manejan y teniendo en cuenta, que el receptor tiene su propio sistema de archivos que es el que el usuario consume. Respecto a la cobertura. Se recibe la transmisión en banda Ku por dos geostacionarios: a
-*América del Norte que es proporcionado por el SES-2 en 87° Oeste
-*Europa por el Astra 3B en 23.5° Este.
+- América del Norte que es proporcionado por el SES-2 en 87° Oeste
+- Europa por el Astra 3B en 23.5° Este.
 
 Y es a finales de 2020 cuando me reengancho al proyecto adquiriendo el receptor Dreamcatcher, reciclando una antena parabólica offset de 120 cm, poniendo todos mis conocimientos técnicos en marcha, y aprendiendo otros muchos, con el objetivo de hacer mi _primer contacto_.
 
 ## Cobertura
 Viviendo en Europa me toca apuntar al Astra 3B. Para asegurarnos de la covertura geográfica necesito saber el satélite y la banda que escucho: Ku. Con estos datos acudiremos a una aplicación que calcule el PIRE para nuestra localización como [SatBeams](https://www.satbeams.com/footprints). 
-<img src="./img/Astra3B_footprint.png" align="center" />4
+<img src="./img/Astra3B_footprint.png" align="center" />
 
 El PIRE es la Potencia Isotrópica Radiada Equivalente. Simplificando mucho, este dato nos indica la potencia con la que llega la señal. Por tanto, cuanto más bajo sea este dato, más débil es la potencia de la señal y, como consecuencia, mayor diámetro de parabólica necesitaremos. En mi localización la recomendación es de una parábola de 60cm y yo estoy utilizando justo el doble. Lo que debería mejorar la recepción.
