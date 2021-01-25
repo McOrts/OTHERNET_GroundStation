@@ -93,7 +93,7 @@ Utilizando la aplicación móvil [Satellite Finder](https://apps.apple.com/us/ap
  
 |Ajuste elevación|Ajuste azimut|
 |---|---|
-|<img src="./img/satellite_finder_check_elevacion.jpg" width=200/>|<img src="./img/satellite_finder_check_azimut.jpg" width=200/>|
+|<img src="./img/satellite_finder_check_elevacion.png" width=200/>|<img src="./img/satellite_finder_check_azimut.png" width=200/>|
 
 ## Hardware
 La [web oficial](https://othernet.is/products/dreamcatcher-v3-05) sigue ofreciendo el _Dreamcatcher v3.05 Data Radio Kit_ aunque advierte que se va a deprecar por lo que su **precio está rebajado a 49$**. Advierto que es una compra en USA por lo que al precio final habrá que sumarle gastos de envio y tasas de aduana.
@@ -101,23 +101,36 @@ La [web oficial](https://othernet.is/products/dreamcatcher-v3-05) sigue ofrecien
 |Dreamcatcher v3.0|LNB|
 |---|---|
 |<img src="./img/Dreamcatcher-v3_05.png" width=600/>|<img src="./img/Dreamcatcher_LNB.jpg" width=200/>|
-|---|---|
-|Procesador a 1 GHz ARM
-256 MB RAM
-Adaptador WiFi USB
-Dos adaptadores microSD slots uno para contenidos
-LEDs para recepción de paquetes, heartbeat, y alimentación
-TCXO 2.5 PPM high precision 
-Botón para resetear wifi en modo AP
-Tamaño 12 x 11.7 cm |LNB 13V/18V bias tee|
+|Procesador a 1 GHz ARM|LNB 13V/18V bias tee|
+|256 MB RAM|Entrada: 10,7-12,75GHz|
+|Adaptador WiFi USB|L.O.:9,75/10.6GHz|
+|Dos adaptadores microSD slots uno para contenidos|Ruido: 0,3dB (Typ.)|
+|LEDs para recepción de paquetes, heartbeat, y alimentación|Ganancia: 60dB(Typ)|
+|TCXO 2.5 PPM high precision||
+|Botón para resetear wifi en modo AP||
+|Tamaño 12 x 11.7 cm ||
+
+### Resultado
+<img src="./img/montaje_antena.jpg" align="center" />
 
 ## Software
-https://archive.othernet.is/Dreamcatcher3%20Skylark/
+Si queremos que el dispositivo Dreamcatcher reciba mensajes de Othernet tendremos que cargar en una tarjeta micro-SSD la imagen del Skylark, que no es más que un Linux Debian adaptado a ARM con una aplicación adaptade de RACHEL. La última versión la podemos descargar de: https://archive.othernet.is/Dreamcatcher3%20Skylark/ También he dejado en este repositorio la que yo he utilizado incluyendo la [guía de usuario](https://github.com/McOrts/OTHERNET_GroundStation/blob/main/docs/DreamcatcherV3.05.pdf) donde explica detalladamente los pasos para la instalación y configuración.
+<img src="./img/tuner.png" align="right" />
+
+Resumiendo, el dispositivo crea un punto de acceso wifi sin credenciales desde el que accederemos a una aplicación web en la URL 10.0.0.1. Una vez dentro, las opciones propias para una instalación en Europa están dentro de la configuración de Tuner en la pestaña de Satellite.
+</br>
+Finalmente si toda la instalación ha sido correcta. Desde el icono de Log Viewer tendremos un checklist todo a OK en la pestaña de diagnosticos tal cual así:
+<img src="./img/checklist.png" align="center" />
+
 ## Acceso a mi instalación
-Fiel al propio espíritu del proyecto he querido dar acceso libre a mi instalación. Si quieres entrar en la aplicación de acceso a la información en tiempo real. He abierto un acceso web público donde podrás entrar con la siguiente credencial:
+Fiel al propio espíritu del proyecto he querido dar acceso libre a mi instalación. Para que se puedas ver de primera mano qué tipo de mensajes se reciben, la aplicación de previsión metereológica o navegar por wikipedia. He abierto un acceso web público donde podrás entrar con la siguiente credencial:
 
 - Usuario: gest
 - Password: gest
+<img src="./img/apliacion_skylark.png" align="center" />
+
+Solo necesitas un navegador y podrás acceder a OTHERNET desde tu dispotivo con acceso a la información en tiempo real que tenga actualizada en mi Dreamcatcher:
+
 
 
 ### Mapa de _Ground Stations_
