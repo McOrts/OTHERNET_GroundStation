@@ -88,6 +88,7 @@ En todo caso se pueden hacer los cálculos con dos fórmulas sencillas que nos s
 - **Angulo de respecto a la horizontal (H)**
 - - H = 90 - ( E - O ) donde E es el ángulo de elevación: 39,48 en mi caso
 - - 90-(39,48-22,62) = 73,14°
+<img src="./img/parametros_elevacion_offset.png" width= 400 align="right" />
 
 Utilizando la aplicación móvil [Satellite Finder](https://apps.apple.com/us/app/satellite-finder-pro/id1075788157#?platform=iphone). Confirmamos los datos obtenemos anteriormente y nos permite hacer los ajustes utilizando el compás y el inclinómetro de nuestro móvil que junto con la cámara nos despejará la duda de obstaculos entre el satélite y nuestra ubicación.
  
