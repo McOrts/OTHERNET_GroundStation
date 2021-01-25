@@ -42,7 +42,7 @@ Aunque como hemos visto, Othernet no requiere un elemento receptor muy grande. T
 Y por esta razón acepté de buen gusto la donación de una maltratada antena offset de 120cm que pude transportar gracias a mi ´clásico´.
 
 ### Restauración y montaje
-<img src="./img/despiece_antena" align="center" />
+<img src="./img/despiece_antena.jpg" align="center" />
 
 Tocó despiezar, desoxidar, enderezar y pintar. Y como suele pasar, algo se rompió por el camino. Precisamente una de las piezas más criticas, el tornillo de ajuste de elevación. Así que pusimos en marcha una iniciativa maker y gracias a mi amigo Toni Lupianez, tengo uno nuevo.
 |Problema-solución|Implementación|
@@ -52,28 +52,28 @@ Tocó despiezar, desoxidar, enderezar y pintar. Y como suele pasar, algo se romp
 Una vez completado el kit, el montaje no representa muchas dificultades y se puede completar en cinco sencillos pasos.
 </br>
 1. Una vez colocado el tope con dos tuercas laterales. Se ha podido fijar la abrazadera principal sobre el mástil con 4 tornillos de métrica 10 orientada longitudinalmente a la base a fin de proporcionar la máxima estabilidad.
-<img src="./img/montaje_antena_paso1.jpg" width=200 align="center" />
+<img src="./img/montaje_antena_paso1.jpg" width=200 align="left" />
 
 2. Este modelo tiene tres pasadores que fijan la base de la parábola que atraviesan una estilo que sirve de indicador de elevación sobre un limbo graduado.
-<img src="./img/montaje_antena_paso2.jpg" width=200 align="center" />
+<img src="./img/montaje_antena_paso2.jpg" width=200 align="left" />
 
 3. Seguidamente se fijan los pasadores en el otro extremo utilizando una platina que soportará el mecanismo de ajuste de elevación.
-<img src="./img/montaje_antena_paso3.jpg" width=200 align="center" />
+<img src="./img/montaje_antena_paso3.jpg" width=200 align="left" />
 
 4. Antes de colocar la parábola es necesario tener el LNB y el soporte colocado ya que facilitará la posterior colocación.
-<img src="./img/montaje_antena_paso4.png" align="center" />
+<img src="./img/montaje_antena_paso4.png" align="left" />
 
 5. Finalmente se coloca la parábola sobre 6 tornillos.
-<img src="./img/montaje_antena_paso5.png" align="center" />
+<img src="./img/montaje_antena_paso5.png" align="left" />
 
 ### Orientación
 <img src="./img/orientacion_antena.png" align="left" />
 
 Para orientar una antena parabólica acia un satélite geostacionario. Se necesitan 3 valores expresados en grados de ángulo:
 
-- Azimut: ángulo horizontal respecto al Norte verdadero o geográfico en cuya vertial está el satélite posicionado.
-- Elevación: ángulo vertical de la posición del satélite respecto a la línea del horizonte.
-- Polarización: ángulo horario de captación de la señal respecto a la vertical. 
+- **Azimut**: ángulo horizontal respecto al Norte verdadero o geográfico en cuya vertial está el satélite posicionado.
+- **Elevación**: ángulo vertical de la posición del satélite respecto a la línea del horizonte.
+- **Polarización**: ángulo horario de captación de la señal respecto a la vertical. 
 
 Hay muchas aplicaciones y páginas web para calcular estos parámetros de ajuste. Recomiendo [satlex](https://www.satlex.it/es/azel_calc.html) muy util para casos como este en el que no conecemos el ángulo de _offset_ de la parábola. 
 
