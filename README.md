@@ -70,7 +70,7 @@ Una vez completado el kit, el montaje no representa muchas dificultades y se pue
 <img src="./img/calculo_foco_antena.png" align="center" />
 
 ### Orientación
-<img src="./img/orientacion_antena.png" width= 400 align="left" />
+<img src="./img/orientacion_antena.png" width= 400 align="right" />
 
 Para orientar una antena parabólica acia un satélite geostacionario. Se necesitan 3 valores expresados en grados de ángulo:
 
@@ -79,8 +79,12 @@ Para orientar una antena parabólica acia un satélite geostacionario. Se necesi
 - **Polarización**: ángulo horario de captación de la señal respecto a la vertical. 
 
 Hay muchas aplicaciones y páginas web para calcular estos parámetros de ajuste. Recomiendo [satlex](https://www.satlex.it/es/azel_calc.html) muy util para casos como este en el que no conecemos el ángulo de _offset_ de la parábola. 
-
+</br>
+</br>
+</br>
+</br>
 En todo caso se pueden hacer los cálculos con dos fórmulas sencillas que nos serán útiles para ajustar la antena:
+<img src="./img/parametros_elevacion_offset.png" width= 400 align="right" />
 
 - **Angulo de _offset_ (O)** 
 - - Offset = secante ( diámetro menor / diámetro mayor )
@@ -88,7 +92,6 @@ En todo caso se pueden hacer los cálculos con dos fórmulas sencillas que nos s
 - **Angulo de respecto a la horizontal (H)**
 - - H = 90 - ( E - O ) donde E es el ángulo de elevación: 39,48 en mi caso
 - - 90-(39,48-22,62) = 73,14°
-<img src="./img/parametros_elevacion_offset.png" width= 400 align="right" />
 
 Utilizando la aplicación móvil [Satellite Finder](https://apps.apple.com/us/app/satellite-finder-pro/id1075788157#?platform=iphone). Confirmamos los datos obtenemos anteriormente y nos permite hacer los ajustes utilizando el compás y el inclinómetro de nuestro móvil que junto con la cámara nos despejará la duda de obstaculos entre el satélite y nuestra ubicación.
  
@@ -101,7 +104,7 @@ La [web oficial](https://othernet.is/products/dreamcatcher-v3-05) sigue ofrecien
 
 |Dreamcatcher v3.0|LNB|
 |---|---|
-|<img src="./img/Dreamcatcher-v3_05.png" width=600/>|<img src="./img/Dreamcatcher_LNB.jpg" width=200/>|
+|<img src="./img/Dreamcatcher-v3_05.png" width=600/>|<img src="./img/Dreamcatcher_LNB.png" width=200/>|
 |Procesador a 1 GHz ARM|LNB 13V/18V bias tee|
 |256 MB RAM|Entrada: 10,7-12,75GHz|
 |Adaptador WiFi USB|L.O.:9,75/10.6GHz|
