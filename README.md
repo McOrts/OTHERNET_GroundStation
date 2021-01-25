@@ -122,6 +122,16 @@ Resumiendo, el dispositivo crea un punto de acceso wifi sin credenciales desde e
 Finalmente si toda la instalación ha sido correcta. Desde el icono de Log Viewer tendremos un checklist todo a OK en la pestaña de diagnosticos tal cual así:
 <img src="./img/checklist.png" align="center" />
 
+<img src="./img/status.png" width= 300 align="right" />
+
+## Primer contacto
+Si todo ha ido más o menos bien. Empezaremos a recibir paquetes. Si no lo tenemos todo bien ajustado, nos encontraremos paquetes erroneos. Hay un mínimo de PER (Packet Error Rate) para que el proceso que interpreta los paquetes de datos pueda transformarlo en ficheros válidos.
+</br>
+La **relación Señal/Ruido** (SNR) debe entrar en el rango de -14 dB a +10 dB en el mejor de los casos
+El valor de **Lock** a 'yes'
+El **RSSI** indicador de potencia de señal (Received Signal Strength Indicator) fluctuará entre los valores de -60 y -100 dBm.
+Cuando tengamos perfectamente ajustada la recepción, deberíamos tener un 100% de paquetes válidos y alcancar un **alcho de banda** de 10,000 baudios (bps).
+
 ## Acceso a mi instalación
 Fiel al propio espíritu del proyecto he querido dar acceso libre a mi instalación. Para que se puedas ver de primera mano qué tipo de mensajes se reciben, la aplicación de previsión metereológica o navegar por wikipedia. He abierto un acceso web público donde podrás entrar con la siguiente credencial:
 
@@ -129,10 +139,10 @@ Fiel al propio espíritu del proyecto he querido dar acceso libre a mi instalaci
 - Password: gest
 <img src="./img/apliacion_skylark.png" align="center" />
 
-Solo necesitas un navegador y podrás acceder a OTHERNET desde tu dispotivo con acceso a la información en tiempo real que tenga actualizada en mi Dreamcatcher:
-
-
+Solo necesitas un navegador y podrás acceder a OTHERNET desde tu dispositivo con acceso a la información en tiempo real que tenga actualizada en mi Dreamcatcher:
 
 ### Mapa de _Ground Stations_
+Tras algunas tareas administrativas como la conexión a la red local, cambio de password de administración y NAT de puertos para el acceso fuera de nuestra red. Ya tendremos todo preparado.
+</br>
 El backoffice de sistema ofrece un mapa on-line de las estaciones activas en el mundo. Parece que somos 3 en España aunque el número varia a consecuencia de desconexiones de mantenimiento:
 https://status.othernet.is/
