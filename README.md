@@ -125,7 +125,6 @@ Si queremos que el dispositivo Dreamcatcher reciba mensajes de Othernet tendremo
 </br>
 Resumiendo, el dispositivo crea un punto de acceso wifi sin credenciales desde el que accederemos a una aplicación web en la URL 10.0.0.1. Una vez dentro, las opciones propias para una instalación en Europa están dentro de la configuración de **Tuner** en la pestaña de Satellite.
 </br>
-</br>
 <img src="./img/checklist.png" width=500 align="right" />
 
 Finalmente si toda la instalación ha sido correcta. Desde el icono de **Log Viewer** tendremos un checklist todo a OK en la pestaña de diagnosticos tal cual así:
