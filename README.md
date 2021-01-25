@@ -36,30 +36,29 @@ Viviendo en Europa me toca apuntar al Astra 3B. Para asegurarnos de la cobertura
 El PIRE es la Potencia Isotrópica Radiada Equivalente. Simplificando mucho, este dato nos indica la potencia con la que llega la señal. Por tanto, cuanto más bajo sea este dato, más débil es la potencia de la señal y, como consecuencia, mayor diámetro de parabólica necesitaremos. En mi localización la recomendación es de una parábola de 60cm para el haz “Europe Wide”. Yo estoy utilizando justo el doble por lo que la recepción no debería ser un problema.
 
 ## La antena
-<img src="./img/4L_antena.png" align="right" />
+<img src="./img/4L_antena.png" width=300 align="right" />
 
 Aunque como hemos visto, Othernet no requiere un elemento receptor muy grande. Tengo interés en reutilizar la instalación para conexiones con otros satélites como el Es'hail 2 / QO-100 que necesitan más ganancia.
 Y por esta razón acepté de buen gusto la donación de una maltratada antena offset de 120cm que pude transportar gracias a mi ´clásico´.
 
 ### Restauración y montaje
-<img src="./img/4L_antena.png" align="left" />
+<img src="./img/despiece_antena" align="center" />
 
 Tocó despiezar, desoxidar, enderezar y pintar. Y como suele pasar, algo se rompió por el camino. Precisamente una de las piezas más criticas, el tornillo de ajuste de elevación. Así que pusimos en marcha una iniciativa maker y gracias a mi amigo Toni Lupianez, tengo uno nuevo.
 |Problema-solución|Implementación|
 |---|---|
-|<img src="./img/problema_tornillo_ajuste_elevacion.jpg"/>|<img src="./img/nuevo_tornillo_ajuste_elevacion.jpg" />|
+|<img src="./img/problema_tornillo_ajuste_elevacion.jpg" width=200/>|<img src="./img/nuevo_tornillo_ajuste_elevacion.jpg" width=200/>|
 
 Una vez completado el kit, el montaje no representa muchas dificultades y se puede completar en cinco sencillos pasos.
-<img src="./img/depiece_antena.jpg" align="center" />
-
+</br>
 1. Una vez colocado el tope con dos tuercas laterales. Se ha podido fijar la abrazadera principal sobre el mástil con 4 tornillos de métrica 10 orientada longitudinalmente a la base a fin de proporcionar la máxima estabilidad.
-<img src="./img/montaje_antena_paso1.jpg" align="center" />
+<img src="./img/montaje_antena_paso1.jpg" width=200 align="center" />
 
 2. Este modelo tiene tres pasadores que fijan la base de la parábola que atraviesan una estilo que sirve de indicador de elevación sobre un limbo graduado.
-<img src="./img/montaje_antena_paso2.jpg" align="center" />
+<img src="./img/montaje_antena_paso2.jpg" width=200 align="center" />
 
 3. Seguidamente se fijan los pasadores en el otro extremo utilizando una platina que soportará el mecanismo de ajuste de elevación.
-<img src="./img/montaje_antena_paso3.jpg" align="center" />
+<img src="./img/montaje_antena_paso3.jpg" width=200 align="center" />
 
 4. Antes de colocar la parábola es necesario tener el LNB y el soporte colocado ya que facilitará la posterior colocación.
 <img src="./img/montaje_antena_paso4.png" align="center" />
