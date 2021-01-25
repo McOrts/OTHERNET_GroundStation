@@ -144,9 +144,10 @@ Fiel al propio espíritu del proyecto he querido dar acceso libre a mi instalaci
 
 - Usuario: gest
 - Password: gest
+- URL: http://domohome.ddns.jazztel.es:48150
 <img src="./img/apliacion_skylark.png" align="center" />
 
-Solo necesitas un navegador y podrás acceder a OTHERNET desde tu dispositivo con acceso a la información en tiempo real que tenga actualizada en mi Dreamcatcher:
+Solo necesitas un navegador y podrás acceder a OTHERNET desde tu dispositivo con acceso a la información en tiempo real que tenga actualizada en mi Dreamcatcher.
 
 ### En el mapa de _Ground Stations_
 Tras algunas tareas administrativas como la conexión a la red local, cambio de password de administración y NAT de puertos para el acceso fuera de nuestra red. Ya tendremos todo preparado.
