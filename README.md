@@ -1,12 +1,13 @@
 # OTHERNET acceso libre a datos desde el espacio
 Resumiendo [OTHERNET](https://othernet.is/) es un servicio en torno a una emisión broadcast digital de datos desde satélites geostacionarios. 
-<img src="./img/outernet-what-is.png" width=300  align="right" />
+<img src="./img/outernet-what-is.png" width=400 align="right" />
 
 Othernet provee a pequeños dispotivos locales o _hostpots_ de repositorios de datos metereológicos, noticias, Wikipedia, mensajes y archivos que pueden ser compartidos en el segmento terrestre. 
 
 ## Una larga historia
 Inspirado en el proyecto [RACHEL](https://worldpossible.org/) que permite montar una plataforma autónoma de contenidos y formación como punto de acceso wifi allí donde no hay internet. [Syed Karim](https://www.linkedin.com/in/syedkarim1/) graduado en informática por la Universidad de Ilinois, replanteó a lo grande este concepto. ¿Y si los RACHEL se actualizan desde el espacio? Así podrían desvincularse de las redes terrestres, y por ende, estar en cualquier parte del mundo donde al menos un panel solar pueda darle energia. 
-<img src="./img/outernetgraphic-300x139.png" align="center" />
+</br>
+<img src="./img/outernetgraphic-300x139.png" awidth=600 lign="center" />
 
 Y este concepto se materializó en **2015 en el proyecto Outernet** con su dispositivo _Lantern_ que abogaba por la libre información, la educación y el acceso un nivel básico de noticias en cualquier parte del mundo idependientemente de su localización, recursos o infraestructuras. Una primera aportación de la organización MDIF (Media Development Investment Fund) permitió construir un prototipo de receptor y un acuerdo con los operadores de los satélites Galaxy 19 y Hot Bird.
 
@@ -119,14 +120,14 @@ La [web oficial](https://othernet.is/products/dreamcatcher-v3-05) sigue ofrecien
 
 ## Software
 Si queremos que el dispositivo Dreamcatcher reciba mensajes de Othernet tendremos que cargar en una tarjeta micro-SSD la imagen del Skylark, que no es más que un Linux Debian adaptado a ARM con una aplicación adaptade de RACHEL. La última versión la podemos descargar de: https://archive.othernet.is/Dreamcatcher3%20Skylark/ También he dejado en este repositorio la que yo he utilizado incluyendo la [guía de usuario](https://github.com/McOrts/OTHERNET_GroundStation/blob/main/docs/DreamcatcherV3.05.pdf) donde explica detalladamente los pasos para la instalación y configuración.
-<img src="./img/tuner.png" align="right" />
+<img src="./img/tuner.png" width=400 align="right" />
 
 Resumiendo, el dispositivo crea un punto de acceso wifi sin credenciales desde el que accederemos a una aplicación web en la URL 10.0.0.1. Una vez dentro, las opciones propias para una instalación en Europa están dentro de la configuración de Tuner en la pestaña de Satellite.
 </br>
 Finalmente si toda la instalación ha sido correcta. Desde el icono de Log Viewer tendremos un checklist todo a OK en la pestaña de diagnosticos tal cual así:
-<img src="./img/checklist.png" align="center" />
+<img src="./img/checklist.png" width=500 align="center" />
 
-<img src="./img/status.png" width= 300 align="right" />
+<img src="./img/status.png" width=300 align="right" />
 
 ## Primer contacto
 Si todo ha ido más o menos bien. Empezaremos a recibir paquetes. Si no lo tenemos todo bien ajustado, nos encontraremos paquetes erroneos. Hay un mínimo de PER (Packet Error Rate) para que el proceso que interpreta los paquetes de datos pueda transformarlo en ficheros válidos.
@@ -145,7 +146,7 @@ Fiel al propio espíritu del proyecto he querido dar acceso libre a mi instalaci
 
 Solo necesitas un navegador y podrás acceder a OTHERNET desde tu dispositivo con acceso a la información en tiempo real que tenga actualizada en mi Dreamcatcher:
 
-### Mapa de _Ground Stations_
+### En el mapa de _Ground Stations_
 Tras algunas tareas administrativas como la conexión a la red local, cambio de password de administración y NAT de puertos para el acceso fuera de nuestra red. Ya tendremos todo preparado.
 </br>
 El backoffice de sistema ofrece un mapa on-line de las estaciones activas en el mundo. Parece que somos 3 en España aunque el número varia a consecuencia de desconexiones de mantenimiento:
