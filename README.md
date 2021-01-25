@@ -22,7 +22,7 @@ Privado entonces de tener un receptor, me apunté a una segunda ronda en la que 
 Por otra parte ya **había pasado más de una año** tras completarse la campaña y el proyecto **se replantea el segmento espacial**. Habían pasado, de pensar en una constelación de micro-satélites propios en órbita baja (LEO) construidos por la empresa escocesa Clyde Space. A contratar un transpondedor en un satélite geostacionario. Finalmente llegaron a un acuerdo con ViaSat para el uso de un _beam_ que empezó con 20MB por día de _uplink_ desde el satélite SkyTerra-1 en banda L. Lo que garantizaba la recepción con antenas pequeñas. 
 
 </br>
-**En 2018 el proyecto se renombra a Othernet** y transita por una serie de diseños de receptor y acuerdos con otros proveedores de satélites. Hasta que en 2020 el proyecto se consolida como una empresa M2M en Chicago (Ilinois USA) con Syed Karim a la cabeza como CEO. Y define una solución más comercial y menos _maker_. Un modem-punto de acceso propio basado en arquitectura ARM con receptor de banda Ku y decodificación LoRa. Lo que da un ancho de banda de solo 20 Kbaudios pero suficiente para el tipo de contenidos que se manejan y teniendo en cuenta, que el receptor tiene su propio sistema de archivos que es el que el usuario consume. Respecto a la cobertura. Se recibe la transmisión en banda Ku por dos geostacionarios:
+**En 2018 el proyecto se renombra a Othernet** y transita por una serie de diseños de receptor y acuerdos con otros proveedores de satélites. Hasta que en 2020 el proyecto se consolida como una empresa M2M en Chicago (Ilinois USA) con Syed Karim a la cabeza como CEO. Y define una solución más comercial y menos _maker_. Un modem-punto de acceso propio basado en arquitectura ARM con receptor de banda Ku y decodificación LoRa. Lo que da un ancho de banda de solo 20 Kbaudios pero suficiente para el tipo de contenidos que se manejan y teniendo en cuenta que el receptor tiene su propio sistema de archivos que es el que el usuario consume. Respecto a la cobertura global actual. Alcanza dos continentes gracias a estos geostacionarios:
 
 - América del Norte que es proporcionado por el SES-2 en 87° Oeste
 - Europa por el Astra 3B en 23.5° Este.
@@ -30,9 +30,52 @@ Por otra parte ya **había pasado más de una año** tras completarse la campañ
 Y es **a finales de 2020 cuando me reengancho** al proyecto adquiriendo el receptor Dreamcatcher, reciclando una antena parabólica offset de 120 cm, poniendo todos mis conocimientos técnicos en marcha, y aprendiendo otros muchos, con el objetivo de hacer mi _primer contacto_.
 
 ## Cobertura
-Viviendo en Europa me toca apuntar al Astra 3B. Para asegurarnos de la covertura geográfica necesito saber el satélite y la banda que escucho: Ku. Con estos datos acudiremos a una aplicación que calcule el PIRE para nuestra localización como [SatBeams](https://www.satbeams.com/footprints). 
+Viviendo en Europa me toca apuntar al Astra 3B. Para asegurarnos de la cobertura geográfica necesito saber el satélite y la banda que escucho: Ku. Con estos datos acudiremos a una aplicación que calcule el PIRE para nuestra localización como [SatBeams](https://www.satbeams.com/footprints). 
 <img src="./img/Astra3B_footprint.png" align="center" />
 
-El PIRE es la Potencia Isotrópica Radiada Equivalente. Simplificando mucho, este dato nos indica la potencia con la que llega la señal. Por tanto, cuanto más bajo sea este dato, más débil es la potencia de la señal y, como consecuencia, mayor diámetro de parabólica necesitaremos. En mi localización la recomendación es de una parábola de 60cm y yo estoy utilizando justo el doble. Lo que debería mejorar la recepción.
+El PIRE es la Potencia Isotrópica Radiada Equivalente. Simplificando mucho, este dato nos indica la potencia con la que llega la señal. Por tanto, cuanto más bajo sea este dato, más débil es la potencia de la señal y, como consecuencia, mayor diámetro de parabólica necesitaremos. En mi localización la recomendación es de una parábola de 60cm para el haz “Europe Wide”. Yo estoy utilizando justo el doble por lo que la recepción no debería ser un problema.
 
+## La antena
+<img src="./img/4L_antena.png" align="right" />
 
+Aunque como hemos visto, Othernet no requiere un elemento receptor muy grande. Tengo interés en reutilizar la instalación para conexiones con otros satélites como el Es'hail 2 / QO-100 que necesitan más ganancia.
+Y por esta razón acepté de buen gusto la donación de una maltratada antena offset de 120cm que pude transportar gracias a mi ´clásico´.
+
+### Restauración y montaje
+<img src="./img/4L_antena.png" align="left" />
+
+Tocó despiezar, desoxidar, enderezar y pintar. Y como suele pasar, algo se rompió por el camino. Precisamente una de las piezas más criticas, el tornillo de ajuste de elevación. Así que pusimos en marcha una iniciativa maker y gracias a mi amigo Toni Lupianez, tengo uno nuevo.
+|Problema-solución|Implementación|
+|---|---|
+|<img src="./img/problema_tornillo_ajuste_elevacion.jpg"/>|<img src="./img/nuevo_tornillo_ajuste_elevacion.jpg" />|
+
+Una vez completado el kit, el montaje no representa muchas dificultades y se puede completar en cinco sencillos pasos.
+<img src="./img/depiece_antena.jpg" align="center" />
+
+1. Una vez colocado el tope con dos tuercas laterales. Se ha podido fijar la abrazadera principal sobre el mástil con 4 tornillos de métrica 10 orientada longitudinalmente a la base a fin de proporcionar la máxima estabilidad.
+<img src="./img/montaje_antena_paso1.jpg" align="center" />
+
+2. Este modelo tiene tres pasadores que fijan la base de la parábola que atraviesan una estilo que sirve de indicador de elevación sobre un limbo graduado.
+<img src="./img/montaje_antena_paso2.jpg" align="center" />
+
+3. Seguidamente se fijan los pasadores en el otro extremo utilizando una platina que soportará el mecanismo de ajuste de elevación.
+<img src="./img/montaje_antena_paso3.jpg" align="center" />
+
+4. Antes de colocar la parábola es necesario tener el LNB y el soporte colocado ya que facilitará la posterior colocación.
+<img src="./img/montaje_antena_paso4.png" align="center" />
+
+5. Finalmente se coloca la parábola sobre 6 tornillos.
+<img src="./img/montaje_antena_paso5.png" align="center" />
+
+### Orientación
+<img src="./img/orientacion_antena.png" align="left" />
+
+Para orientar una antena parabólica acia un satélite geostacionario. Se necesitan 3 valores expresados en grados de ángulo:
+
+- Azimut: ángulo horizontal respecto al Norte verdadero o geográfico en cuya vertial está el satélite posicionado.
+- Elevación: ángulo vertical de la posición del satélite respecto a la línea del horizonte.
+- Polarización: ángulo horario de captación de la señal respecto a la vertical. 
+
+Hay muchas aplicaciones y páginas web para calcular estos parámetros de ajuste. Recomiendo [satlex](https://www.satlex.it/es/azel_calc.html) muy util para casos como este en el que no conecemos el ángulo de _offset_ de la parábola. 
+
+En todo caso se pueden hacer los cálculos con dos fórmulas sencillas que nos serán útiles para ajustar la antena:
