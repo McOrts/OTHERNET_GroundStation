@@ -52,22 +52,25 @@ Tocó despiezar, desoxidar, enderezar y pintar. Y como suele pasar, algo se romp
 Una vez completado el kit, el montaje no representa muchas dificultades y se puede completar en cinco sencillos pasos.
 </br>
 1. Una vez colocado el tope con dos tuercas laterales. Se ha podido fijar la abrazadera principal sobre el mástil con 4 tornillos de métrica 10 orientada longitudinalmente a la base a fin de proporcionar la máxima estabilidad.
-<img src="./img/montaje_antena_paso1.jpg" width=200 align="left" />
+<img src="./img/montaje_antena_paso1.jpg" width=200 align="center" />
 
 2. Este modelo tiene tres pasadores que fijan la base de la parábola que atraviesan una estilo que sirve de indicador de elevación sobre un limbo graduado.
-<img src="./img/montaje_antena_paso2.jpg" width=200 align="left" />
+<img src="./img/montaje_antena_paso2.jpg" width=200 align="center" />
 
 3. Seguidamente se fijan los pasadores en el otro extremo utilizando una platina que soportará el mecanismo de ajuste de elevación.
-<img src="./img/montaje_antena_paso3.jpg" width=200 align="left" />
+<img src="./img/montaje_antena_paso3.jpg" width=200 align="center" />
 
 4. Antes de colocar la parábola es necesario tener el LNB y el soporte colocado ya que facilitará la posterior colocación.
-<img src="./img/montaje_antena_paso4.png" align="left" />
+<img src="./img/montaje_antena_paso4.png" align="center" />
 
-5. Finalmente se coloca la parábola sobre 6 tornillos.
-<img src="./img/montaje_antena_paso5.png" align="left" />
+5. Se coloca la parábola sobre 6 tornillos.
+<img src="./img/montaje_antena_paso5.png" align="center" />
+
+6. Y finalmente se hace el ajuste del punto focal donde deberá estar el LNB. Podemos ahorrarnos los cálculos utilizando esta página web: https://www.satsig.net/pointing/finding-dish-offset-angle.htm
+
 
 ### Orientación
-<img src="./img/orientacion_antena.png" align="left" />
+<img src="./img/orientacion_antena.png" width= 300 align="left" />
 
 Para orientar una antena parabólica acia un satélite geostacionario. Se necesitan 3 valores expresados en grados de ángulo:
 
@@ -78,3 +81,10 @@ Para orientar una antena parabólica acia un satélite geostacionario. Se necesi
 Hay muchas aplicaciones y páginas web para calcular estos parámetros de ajuste. Recomiendo [satlex](https://www.satlex.it/es/azel_calc.html) muy util para casos como este en el que no conecemos el ángulo de _offset_ de la parábola. 
 
 En todo caso se pueden hacer los cálculos con dos fórmulas sencillas que nos serán útiles para ajustar la antena:
+
+- **Angulo de _offset_ (O)** 
+- - Offset = secante ( diámetro menor / diámetro mayor )
+- - sec(120/130) = 22,62°
+- **Angulo de respecto a la horizontal (H)**
+- - H = 90 - ( E - O ) donde E es el ángulo de elevación: 39,48 en mi caso
+- - 90-(39,48-22,62) = 73,14°
