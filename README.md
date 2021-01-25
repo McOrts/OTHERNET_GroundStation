@@ -35,9 +35,9 @@ Viviendo en Europa me toca apuntar al Astra 3B. Para asegurarnos de la cobertura
 
 El PIRE es la Potencia Isotrópica Radiada Equivalente. Simplificando mucho, este dato nos indica la potencia con la que llega la señal. Por tanto, cuanto más bajo sea este dato, más débil es la potencia de la señal y, como consecuencia, mayor diámetro de parabólica necesitaremos. En mi localización la recomendación es de una parábola de 60cm para el haz “Europe Wide”. Yo estoy utilizando justo el doble por lo que la recepción no debería ser un problema.
 
-## La antena
 <img src="./img/4L_antena.png" width=300 align="right" />
 
+## La antena
 Aunque como hemos visto, Othernet no requiere un elemento receptor muy grande. Tengo interés en reutilizar la instalación para conexiones con otros satélites como el Es'hail 2 / QO-100 que necesitan más ganancia.
 Y por esta razón acepté de buen gusto la donación de una maltratada antena offset de 120cm que pude transportar gracias a mi ´clásico´.
 
@@ -67,10 +67,10 @@ Una vez completado el kit, el montaje no representa muchas dificultades y se pue
 <img src="./img/montaje_antena_paso5.png" align="center" />
 
 6. Y finalmente se hace el ajuste del punto focal donde deberá estar el LNB. Podemos ahorrarnos los cálculos utilizando esta página web: https://www.satsig.net/pointing/finding-dish-offset-angle.htm
-
+<img src="./img/calculo_foco_antena.png" align="center" />
 
 ### Orientación
-<img src="./img/orientacion_antena.png" width= 300 align="left" />
+<img src="./img/orientacion_antena.png" width= 400 align="left" />
 
 Para orientar una antena parabólica acia un satélite geostacionario. Se necesitan 3 valores expresados en grados de ángulo:
 
@@ -88,3 +88,38 @@ En todo caso se pueden hacer los cálculos con dos fórmulas sencillas que nos s
 - **Angulo de respecto a la horizontal (H)**
 - - H = 90 - ( E - O ) donde E es el ángulo de elevación: 39,48 en mi caso
 - - 90-(39,48-22,62) = 73,14°
+
+Utilizando la aplicación móvil [Satellite Finder](https://apps.apple.com/us/app/satellite-finder-pro/id1075788157#?platform=iphone). Confirmamos los datos obtenemos anteriormente y nos permite hacer los ajustes utilizando el compás y el inclinómetro de nuestro móvil que junto con la cámara nos despejará la duda de obstaculos entre el satélite y nuestra ubicación.
+ 
+|Ajuste elevación|Ajuste azimut|
+|---|---|
+|<img src="./img/satellite_finder_check_elevacion.jpg" width=200/>|<img src="./img/satellite_finder_check_azimut.jpg" width=200/>|
+
+## Hardware
+La [web oficial](https://othernet.is/products/dreamcatcher-v3-05) sigue ofreciendo el _Dreamcatcher v3.05 Data Radio Kit_ aunque advierte que se va a deprecar por lo que su **precio está rebajado a 49$**. Advierto que es una compra en USA por lo que al precio final habrá que sumarle gastos de envio y tasas de aduana.
+
+|Dreamcatcher v3.0|LNB|
+|---|---|
+|<img src="./img/Dreamcatcher-v3_05.png" width=600/>|<img src="./img/Dreamcatcher_LNB.jpg" width=200/>|
+|---|---|
+|Procesador a 1 GHz ARM
+256 MB RAM
+Adaptador WiFi USB
+Dos adaptadores microSD slots uno para contenidos
+LEDs para recepción de paquetes, heartbeat, y alimentación
+TCXO 2.5 PPM high precision 
+Botón para resetear wifi en modo AP
+Tamaño 12 x 11.7 cm |LNB 13V/18V bias tee|
+
+## Software
+https://archive.othernet.is/Dreamcatcher3%20Skylark/
+## Acceso a mi instalación
+Fiel al propio espíritu del proyecto he querido dar acceso libre a mi instalación. Si quieres entrar en la aplicación de acceso a la información en tiempo real. He abierto un acceso web público donde podrás entrar con la siguiente credencial:
+
+- Usuario: gest
+- Password: gest
+
+
+### Mapa de _Ground Stations_
+El backoffice de sistema ofrece un mapa on-line de las estaciones activas en el mundo. Parece que somos 3 en España aunque el número varia a consecuencia de desconexiones de mantenimiento:
+https://status.othernet.is/
