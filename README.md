@@ -1,5 +1,5 @@
 # OTHERNET acceso libre a datos desde el espacio
-Resumiendo [OTHERNET](https://othernet.is/) es un servicio en torno a una emisión broadcast digital de datos desde satélites geostacionarios. 
+En pocas palabras, [OTHERNET](https://othernet.is/) es un servicio en torno a una emisión broadcast digital de datos desde satélites geoestacionarios. 
 <img src="./img/outernet-what-is.png" width=400 align="right" />
 
 Dicho de otra forma OTHERNET (Originalmente OUTERNET) provee a pequeños dispositivos locales o _hostpots_ de repositorios de datos metereológicos, noticias, Wikipedia, mensajes y archivos que pueden ser compartidos en el segmento terrestre. 
