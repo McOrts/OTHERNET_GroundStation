@@ -6,7 +6,8 @@ Dicho de otra forma OTHERNET (Originalmente OUTERNET) provee a pequeños dispoti
 
 ## Una larga historia
 Inspirado en el proyecto [RACHEL](https://worldpossible.org/) que permite montar una plataforma autónoma de contenidos y formación como punto de acceso wifi allí donde no hay internet. [Syed Karim](https://www.linkedin.com/in/syedkarim1/) graduado en informática por la Universidad de Ilinois, replanteó a lo grande este concepto. ¿Y si los RACHEL se actualizan desde el espacio? Así podrían desvincularse de las redes terrestres, y por ende, estar en cualquier parte del mundo donde al menos un panel solar pueda darle energia.
-<img src="./img/outernetgraphic-300x139.png" width=600 lign="left" />
+
+<img src="./img/outernetgraphic-300x139.png" width=500 lign="left" />
 
 Y este concepto se materializó en **2015 en el proyecto Outernet** desarrollando un dispositivo llamado _Lantern_ que abogaba por el acceso a la libre información, la educación y noticias en cualquier parte del mundo idependientemente de su localización, recursos o infraestructuras. Una primera aportación de la organización MDIF (Media Development Investment Fund) permitió construir un prototipo de receptor y un acuerdo con los operadores de los satélites Galaxy 19 y Hot Bird para la conectividad con estos dispositivos.
 
