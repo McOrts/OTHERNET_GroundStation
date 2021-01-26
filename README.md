@@ -2,28 +2,28 @@
 Resumiendo [OTHERNET](https://othernet.is/) es un servicio en torno a una emisión broadcast digital de datos desde satélites geostacionarios. 
 <img src="./img/outernet-what-is.png" width=400 align="right" />
 
-Dicho de otra forma OTHERNET (Originalmente OUTERNET) provee a pequeños dispotivos locales o _hostpots_ de repositorios de datos metereológicos, noticias, Wikipedia, mensajes y archivos que pueden ser compartidos en el segmento terrestre. 
+Dicho de otra forma OTHERNET (Originalmente OUTERNET) provee a pequeños dispositivos locales o _hostpots_ de repositorios de datos metereológicos, noticias, Wikipedia, mensajes y archivos que pueden ser compartidos en el segmento terrestre. 
 
 ## Una larga historia
-Inspirado en el proyecto [RACHEL](https://worldpossible.org/) que permite montar una plataforma autónoma de contenidos y formación como punto de acceso wifi allí donde no hay internet. [Syed Karim](https://www.linkedin.com/in/syedkarim1/) graduado en informática por la Universidad de Ilinois, replanteó a lo grande este concepto. ¿Y si los RACHEL se actualizan desde el espacio? Así podrían desvincularse de las redes terrestres, y por ende, estar en cualquier parte del mundo donde al menos un panel solar pueda darle energia.
+Inspirado en el proyecto [RACHEL](https://worldpossible.org/) que permite montar una plataforma autónoma de contenidos y formación como punto de acceso wifi allí donde no hay internet. [Syed Karim](https://www.linkedin.com/in/syedkarim1/) graduado en informática por la Universidad de Ilinois, replanteó a lo grande este concepto. ¿Y si los RACHEL se actualizan desde el espacio? Así podrían desvincularse de las redes terrestres, y por ende, estar en cualquier parte del mundo donde al menos un panel solar pueda darle energía.
 
 <img src="./img/outernetgraphic-300x139.png" width=550 lign="left" />
 
-Y este concepto se materializó en **2015 en el proyecto Outernet** desarrollando un dispositivo llamado _Lantern_ que abogaba por el acceso a la libre información, la educación y noticias en cualquier parte del mundo idependientemente de su localización, recursos o infraestructuras. Una primera aportación de la organización MDIF (Media Development Investment Fund) permitió construir un prototipo de receptor y un acuerdo con los operadores de los satélites Galaxy 19 y Hot Bird para la conectividad con estos dispositivos.
+Y este concepto se materializó en **2015 en el proyecto Outernet** desarrollando un dispositivo llamado _Lantern_ que abogaba por el acceso a la libre información, la educación y noticias en cualquier parte del mundo independientemente de su localización, recursos o infraestructuras. Una primera aportación de la organización MDIF (Media Development Investment Fund) permitió construir un prototipo de receptor y un acuerdo con los operadores de los satélites Galaxy 19 y Hot Bird para la conectividad con estos dispositivos.
 
 <img src="./img/LanternBoardDesing.png" align="center" />
 
-Y es aquí cuando Syed Karim decide crear la campaña de _crowdfunding_ ["Latern: A Global Satellite Data Radio"](https://igg.me/at/outernet/x#/updates/all) en Indiegogo para conseguir los fondos y dar a conocer el producto. Con un presupuesto de 390K$ que acabó alcanzando los 573K$ ya tenía garantizada la viavilidad del proyecto. Fuí uno de los primeros participantes en esta primera ronda pero mi aportación se destinó a apadrinar un receptor (Lantern) para ser donado a un colegio en paises africanos. 
+Y es aquí cuando Syed Karim decide crear la campaña de _crowdfunding_ ["Latern: A Global Satellite Data Radio"](https://igg.me/at/outernet/x#/updates/all) en Indiegogo para conseguir los fondos y dar a conocer el producto. Con un presupuesto de 390K$ que acabó alcanzando los 573K$ ya tenía garantizada la viabilidad del proyecto. Fuí uno de los primeros participantes en esta primera ronda pero mi aportación se destinó a apadrinar un receptor (Lantern) para ser donado a un colegio en países africanos. 
 
 <img src="./img/FirstLantern.jpg" width=600 align="center" />
 
-Privado entonces de tener un receptor, me apunté a una segunda ronda en la que había la posibilidad de tener un dispositivo DIY basado en un receptor de DVB-S2 (Geniatech Mygica HDStar) y una _single board computer_ como la Raspbery Pi. Pero de nuevo me quedé con las ganas porque nunca me funcionó. El clásico problema de incompatibilidad de versiones y la falta de soporte, frustó el intento.
+Privado entonces de tener un receptor, me apunté a una segunda ronda en la que había la posibilidad de tener un dispositivo DIY basado en un receptor de DVB-S2 (Geniatech Mygica HDStar) y una _single board computer_ como la Raspberry Pi. Pero de nuevo me quedé con las ganas porque nunca me funcionó. El clásico problema de incompatibilidad de versiones y la falta de soporte, frustró el intento.
 <img src="./img/RPI_Outernet.jpg" align="right" />
 
-Por otra parte ya **había pasado más de una año** tras completarse la campaña en Indiegogo y el proyecto **se replantea el segmento espacial**. Que había pasado, de proyectar una constelación de micro-satélites propios en órbita baja (LEO) construidos por la empresa escocesa Clyde Space. A contratar un transpondedor de un satélite geostacionario. Finalmente llegaron a un acuerdo con ViaSat para el uso de un _beam_ que empezó con 20MB por día de _uplink_ desde el satélite SkyTerra-1 en la banda L. Lo que garantizaba la recepción con antenas pequeñas. 
+Por otra parte ya **había pasado más de una año** tras completarse la campaña en Indiegogo y el proyecto **se replantea el segmento espacial**. Que había pasado, de proyectar una constelación de micro-satélites propios en órbita baja (LEO) construidos por la empresa escocesa Clyde Space. A contratar un transpondedor de un satélite geoestacionario. Finalmente llegaron a un acuerdo con ViaSat para el uso de un _beam_ que empezó con 20MB por día de _uplink_ desde el satélite SkyTerra-1 en la banda L. Lo que garantizaba la recepción con antenas pequeñas. 
 </br>
 
-**En 2018 el proyecto se renombra a Othernet** y transita por una serie de cambios de diseño de receptor y acuerdos con otros proveedores de satélites. Hasta que en 2020 el proyecto se consolida como una empresa M2M en Chicago (Ilinois USA) con Syed Karim a la cabeza como CEO. Y define una solución más comercial y menos _maker_. Un modem-punto de acceso propio basado en arquitectura ARM con receptor de banda Ku y decodificación LoRa. Lo que da un ancho de banda de solo 20K baudios pero suficiente para el tipo de contenidos que se manejan y teniendo en cuenta que el receptor tiene su propio sistema de archivos que es el que el usuario consume. Respecto a la cobertura global actual. Esta alcanza dos continentes gracias a estos geostacionarios:
+**En 2018 el proyecto se renombra a Othernet** y transita por una serie de cambios de diseño de receptor y acuerdos con otros proveedores de satélites. Hasta que en 2020 el proyecto se consolida como una empresa M2M en Chicago (Ilinois USA) con Syed Karim a la cabeza como CEO. Y define una solución más comercial y menos _maker_. Un modem-punto de acceso propio basado en arquitectura ARM con receptor de banda Ku y decodificación LoRa. Lo que da un ancho de banda de solo 20K baudios pero suficiente para el tipo de contenidos que se manejan y teniendo en cuenta que el receptor tiene su propio sistema de archivos que es el que el usuario consume. Respecto a la cobertura global actual. Esta alcanza dos continentes gracias a estos geoestacionarios:
 
 - América del Norte que es proporcionado por el SES-2 en 87° Oeste
 - Europa por el Astra 3B en 23.5° Este.
@@ -74,13 +74,13 @@ Una vez completado el kit de antena parabólica. El montaje no representa muchas
 ### Orientación
 <img src="./img/orientacion_antena.png" width= 400 align="right" />
 
-Para orientar una antena parabólica acia un satélite geostacionario. Se necesitan 3 valores expresados en grados de ángulo:
+Para orientar una antena parabólica hacia un satélite geoestacionario. Se necesitan 3 valores expresados en grados de ángulo:
 
-- **Azimut**: ángulo horizontal respecto al Norte verdadero o geográfico en cuya vertial está el satélite posicionado.
+- **Azimut**: ángulo horizontal respecto al Norte verdadero o geográfico en cuya vertical está el satélite posicionado.
 - **Elevación**: ángulo vertical de la posición del satélite respecto a la línea del horizonte.
 - **Polarización**: ángulo horario de captación de la señal respecto a la vertical. 
 
-Hay muchas aplicaciones y páginas web para calcular estos parámetros de ajuste. Recomiendo [satlex](https://www.satlex.it/es/azel_calc.html) muy util para casos como este en el que no conecemos el ángulo de _offset_ de la parábola. 
+Hay muchas aplicaciones y páginas web para calcular estos parámetros de ajuste. Recomiendo [satlex](https://www.satlex.it/es/azel_calc.html) muy útil para casos como este en el que no conocemos el ángulo de _offset_ de la parábola. 
 
 En todo caso se pueden hacer los cálculos con dos fórmulas sencillas que nos serán útiles para orientar la antena:
 <img src="./img/parametros_elevacion_offset.png" width=300 align="right" />
@@ -92,7 +92,7 @@ En todo caso se pueden hacer los cálculos con dos fórmulas sencillas que nos s
 - - H = 90 - ( E - O ) donde E es el ángulo de elevación: 39,48 en mi caso
 - - 90-(39,48-22,62) = 73,14°
 
-Utilizando la aplicación móvil [Satellite Finder](https://apps.apple.com/us/app/satellite-finder-pro/id1075788157#?platform=iphone). Confirmamos los datos obtenidos anteriormente y nos permite hacer los ajustes utilizando directamente el compás y el inclinómetro de nuestro móvil que junto con la cámara, nos despejará la duda de obstaculos entre el satélite y nuestra ubicación.
+Utilizando la aplicación móvil [Satellite Finder](https://apps.apple.com/us/app/satellite-finder-pro/id1075788157#?platform=iphone). Confirmamos los datos obtenidos anteriormente y nos permite hacer los ajustes utilizando directamente el compás y el inclinómetro de nuestro móvil que junto con la cámara, nos despejará la duda de obstáculos entre el satélite y nuestra ubicación.
  
 |Ajuste elevación|Ajuste azimut|
 |---|---|
@@ -130,19 +130,19 @@ Resumiendo, el dispositivo crea un punto de acceso wifi sin credenciales, en un 
 </br>
 <img src="./img/checklist.png" width=500 align="right" />
 
-Finalmente si toda la instalación ha sido correcta. Desde el icono de **Log Viewer** en la pestaña de diagnosticos tendremos un checklist todo a OK tal cual así:
+Finalmente si toda la instalación ha sido correcta. Desde el icono de **Log Viewer** en la pestaña de diagnósticos tendremos un checklist todo a OK tal cual así:
 
 <img src="./img/status.png" width=300 align="right" />
 
 ## Primer contacto
-Lledo a este punto con todos los inconvenietes resueltos. Deberíamos empezaremos a recibir paquetes. Si la antena no está todo bien ajustada, puede que nos encontraremos paquetes erroneos. Hay un mínimo de PER (Packet Error Rate) para que el proceso linux que interpreta los paquetes de datos pueda transformarlo en ficheros válidos. Esto lo veremos en 'System messages' dentro del icono de 'Log Viewer'.
+Llegado a este punto con todos los inconvenientes resueltos. Deberíamos empezaremos a recibir paquetes. Si la antena no está todo bien ajustada, puede que nos encontraremos paquetes inconvenientes. Hay un mínimo de PER (Packet Error Rate) para que el proceso linux que interpreta los paquetes de datos pueda transformarlo en ficheros válidos. Esto lo veremos en 'System messages' dentro del icono de 'Log Viewer'.
 
-En cuanto un solo paquete sea recibido. En la ventana de configuracón **Tuner** pestaña de 'Status' encontraremos unos indicadores de la calidad de esta recepción. Los criterios más generales para interpretarlos son cuatro:
+En cuanto un solo paquete sea recibido. En la ventana de configuración **Tuner** pestaña de 'Status' encontraremos unos indicadores de la calidad de esta recepción. Los criterios más generales para interpretarlos son cuatro:
 
 - La **relación Señal/Ruido** (SNR) debe entrar en el rango de -14 dB a +10 dB en el mejor de los casos.
 - El valor de **Lock** a 'yes'
 - El **RSSI** indicador de potencia de señal (Received Signal Strength Indicator) fluctuará entre los valores de -60 y -100 dBm.
-- Cuando tengamos perfectamente ajustada la recepción, deberíamos tener un 100% de paquetes válidos y alcancar un **alcho de banda** de 10.000 baudios (bps).
+- Cuando tengamos perfectamente ajustada la recepción, deberíamos tener un 100% de paquetes válidos y alcanzar un **ancho de banda** de 10.000 baudios (bps).
 
 ## Acceso a mi instalación
 Fiel al propio espíritu del proyecto he querido dar acceso libre a mi instalación. Y para que se pueda ver de primera mano qué tipo de mensajes se reciben, la aplicación de previsión metereológica o navegar por wikipedia. He abierto un acceso web público donde podrás entrar con la siguiente credencial:
@@ -157,7 +157,7 @@ Solo necesitas un navegador y podrás acceder a OTHERNET desde tu dispositivo co
 ### En el mapa de _Ground Stations_
 Tendremos todo preparado tras unas últimas tareas administrativas como la conexión a la red local, el cambio de password de administración y NAT de puertos para el acceso fuera de nuestra red.
 
-El backoffice de sistema ofrece un mapa on-line de las estaciones activas en el mundo. Parece que somos 3 en España aunque el número varia a consecuencia de desconexiones de mantenimiento:
+El backoffice del sistema ofrece un mapa on-line de las estaciones activas en el mundo. Parece que somos 3 en España aunque el número varía a consecuencia de desconexiones de mantenimiento:
 https://status.othernet.is/
 
 # Agradecimientos
