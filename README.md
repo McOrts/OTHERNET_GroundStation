@@ -2,7 +2,7 @@
 En pocas palabras, [OTHERNET](https://othernet.is/) es un servicio en torno a una emisión broadcast digital de datos desde satélites geoestacionarios. 
 <img src="./img/outernet-what-is.png" width=400 align="right" />
 
-Dicho de otra forma OTHERNET (Originalmente OUTERNET) provee a pequeños dispositivos locales o _hostpots_ de repositorios de datos metereológicos, noticias, Wikipedia, mensajes y archivos que pueden ser compartidos en el segmento terrestre. 
+Dicho de otra forma OTHERNET (Originalmente OUTERNET) provee a pequeños dispositivos locales o _hotspots_ de repositorios de datos metereológicos, noticias, Wikipedia, mensajes y archivos que pueden ser compartidos en el segmento terrestre. 
 
 ## Una larga historia
 Inspirado en el proyecto [RACHEL](https://worldpossible.org/) que permite montar una plataforma autónoma de contenidos y formación como punto de acceso wifi allí donde no hay internet. [Syed Karim](https://www.linkedin.com/in/syedkarim1/) graduado en informática por la Universidad de Ilinois, replanteó a lo grande este concepto. ¿Y si los RACHEL se actualizan desde el espacio? Así podrían desvincularse de las redes terrestres, y por ende, estar en cualquier parte del mundo donde al menos un panel solar pueda darle energía.
