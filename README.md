@@ -5,7 +5,7 @@ En pocas palabras, [OTHERNET](https://othernet.is/) es un servicio en torno a un
 Dicho de otra forma OTHERNET (Originalmente OUTERNET) provee a pequeños dispositivos locales o _hotspots_ de repositorios de datos metereológicos, noticias, Wikipedia, mensajes y archivos que pueden ser compartidos en el segmento terrestre. 
 
 ## Una larga historia
-Inspirado en el proyecto [RACHEL](https://worldpossible.org/) que permite montar una plataforma autónoma de contenidos y formación como punto de acceso wifi allí donde no hay internet. [Syed Karim](https://www.linkedin.com/in/syedkarim1/) graduado en informática por la Universidad de Ilinois, replanteó a lo grande este concepto. ¿Y si los RACHEL se actualizan desde el espacio? Así podrían desvincularse de las redes terrestres, y por ende, estar en cualquier parte del mundo donde al menos un panel solar pueda darle energía.
+Inspirado en el proyecto [RACHEL](https://worldpossible.org/) que permite montar una plataforma autónoma de contenidos y formación como punto de acceso wifi allí donde no hay internet. [Syed Karim](https://www.linkedin.com/in/syedkarim1/) graduado en informática por la Universidad de Illinois, replanteó a lo grande este concepto. ¿Y si los RACHEL se actualizan desde el espacio? Así podrían desvincularse de las redes terrestres, y por ende, estar en cualquier parte del mundo donde al menos un panel solar pueda darle energía.
 
 <img src="./img/outernetgraphic-300x139.png" width=550 lign="left" />
 
@@ -13,7 +13,7 @@ Y este concepto se materializó en **2015 en el proyecto Outernet** desarrolland
 
 <img src="./img/LanternBoardDesing.png" align="center" />
 
-Y es aquí cuando Syed Karim decide crear la campaña de _crowdfunding_ ["Latern: A Global Satellite Data Radio"](https://igg.me/at/outernet/x#/updates/all) en Indiegogo para conseguir los fondos y dar a conocer el producto. Con un presupuesto de 390K$ que acabó alcanzando los 573K$ ya tenía garantizada la viabilidad del proyecto. Fuí uno de los primeros participantes en esta primera ronda pero mi aportación se destinó a apadrinar un receptor (Lantern) para ser donado a un colegio en países africanos. 
+Y es aquí cuando Syed Karim decide crear la campaña de _crowdfunding_ ["Lantern: A Global Satellite Data Radio"](https://igg.me/at/outernet/x#/updates/all) en Indiegogo para conseguir los fondos y dar a conocer el producto. Con un presupuesto de 390K$ que acabó alcanzando los 573K$ ya tenía garantizada la viabilidad del proyecto. Fuí uno de los primeros participantes en esta primera ronda pero mi aportación se destinó a apadrinar un receptor (Lantern) para ser donado a un colegio en países africanos. 
 
 <img src="./img/FirstLantern.jpg" width=600 align="center" />
 
@@ -23,7 +23,7 @@ Privado entonces de tener un receptor, me apunté a una segunda ronda en la que 
 Por otra parte ya **había pasado más de una año** tras completarse la campaña en Indiegogo y el proyecto **se replantea el segmento espacial**. Que había pasado, de proyectar una constelación de micro-satélites propios en órbita baja (LEO) construidos por la empresa escocesa Clyde Space. A contratar un transpondedor de un satélite geoestacionario. Finalmente llegaron a un acuerdo con ViaSat para el uso de un _beam_ que empezó con 20MB por día de _uplink_ desde el satélite SkyTerra-1 en la banda L. Lo que garantizaba la recepción con antenas pequeñas. 
 </br>
 
-**En 2018 el proyecto se renombra a Othernet** y transita por una serie de cambios de diseño de receptor y acuerdos con otros proveedores de satélites. Hasta que en 2020 el proyecto se consolida como una empresa M2M en Chicago (Ilinois USA) con Syed Karim a la cabeza como CEO. Y define una solución más comercial y menos _maker_. Un modem-punto de acceso propio basado en arquitectura ARM con receptor de banda Ku y decodificación LoRa. Lo que da un ancho de banda de solo 20K baudios pero suficiente para el tipo de contenidos que se manejan y teniendo en cuenta que el receptor tiene su propio sistema de archivos que es el que el usuario consume. Respecto a la cobertura global actual. Esta alcanza dos continentes gracias a estos geoestacionarios:
+**En 2018 el proyecto se renombra a Othernet** y transita por una serie de cambios de diseño de receptor y acuerdos con otros proveedores de satélites. Hasta que en 2020 el proyecto se consolida como una empresa M2M en Chicago (Illinois USA) con Syed Karim a la cabeza como CEO. Y define una solución más comercial y menos _maker_. Un modem-punto de acceso propio basado en arquitectura ARM con receptor de banda Ku y decodificación LoRa. Lo que da un ancho de banda de solo 20K baudios pero suficiente para el tipo de contenidos que se manejan y teniendo en cuenta que el receptor tiene su propio sistema de archivos que es el que el usuario consume. Respecto a la cobertura global actual. Esta alcanza dos continentes gracias a estos geoestacionarios:
 
 - América del Norte que es proporcionado por el SES-2 en 87° Oeste
 - Europa por el Astra 3B en 23.5° Este.
@@ -81,6 +81,7 @@ Para orientar una antena parabólica hacia un satélite geoestacionario. Se nece
 - **Polarización**: ángulo horario de captación de la señal respecto a la vertical. 
 
 Hay muchas aplicaciones y páginas web para calcular estos parámetros de ajuste. Recomiendo [satlex](https://www.satlex.it/es/azel_calc.html) muy útil para casos como este en el que no conocemos el ángulo de _offset_ de la parábola. 
+</br>
 
 En todo caso se pueden hacer los cálculos con dos fórmulas sencillas que nos serán útiles para orientar la antena:
 <img src="./img/parametros_elevacion_offset.png" width=300 align="right" />
