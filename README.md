@@ -2,7 +2,7 @@
 En pocas palabras, [OTHERNET](https://othernet.is/) es un servicio en torno a una emisión broadcast digital de datos desde satélites geoestacionarios. 
 <img src="./img/outernet-what-is.png" width=400 align="right" />
 
-Dicho de otra forma OTHERNET (Originalmente OUTERNET) provee a pequeños dispositivos locales o _hotspots_ de repositorios de datos metereológicos, noticias, Wikipedia, mensajes y archivos que pueden ser compartidos en el segmento terrestre. 
+Dicho de otra forma OTHERNET (Originalmente OUTERNET) provee a pequeños dispositivos locales o _hotspots_ de repositorios de datos metereológicos, noticias, Wikipedia, radio, mensajes y archivos que pueden ser compartidos en el segmento terrestre. 
 
 ## Una larga historia
 Inspirado en el proyecto [RACHEL](https://worldpossible.org/) que permite montar una plataforma autónoma de contenidos y formación como punto de acceso wifi allí donde no hay internet. [Syed Karim](https://www.linkedin.com/in/syedkarim1/) graduado en informática por la Universidad de Illinois, replanteó a lo grande este concepto. ¿Y si los RACHEL se actualizan desde el espacio? Así podrían desvincularse de las redes terrestres, y por ende, estar en cualquier parte del mundo donde al menos un panel solar pueda darle energía.
@@ -155,6 +155,19 @@ Fiel al propio espíritu del proyecto he querido dar acceso libre a mi instalaci
 
 Solo necesitas un navegador y podrás acceder a OTHERNET desde tu dispositivo consultando la información en tiempo real que tenga actualizada en ese momento mi Dreamcatcher.
 
+### Servicios de información a los que podrás acceder
+- **Wikipedia off-line**. Tengo pocos contenidos sincronizados. La actualización es lenta.
+- **Tiempo metereológico mundial**. Gracias a la descarga de ficheros de la US National Weather Service - NCEP (WMC). Podrás explorar para cualquier parte de planeta:
+- - Nivel de presión a la altura del mar
+- - Humedad relativa en superficie
+- - Temperatura en superficie
+- - Densidad de la nuvosidad
+- - Precipitacion de lluvia
+- - Velocidad el viento en la superficie
+- **Radio**. A parte del _stream_ de descarga de datos ('files') hay uno de 'radio' que permite cada cierto tiempo, escuchar online la emisión de VOA [(Voice of America)](https://www.voanews.com/listen/programs)
+- **Noticias**. Podrás encontrar unos 20 canales en inglés, alemán, arabe, chino e indi. De agencias de ciencia, deportes, cultura y noticias del todo el mundo servidas por todos los canales internaciones de la BBC.
+- Ficheros actualizados de **tráfico satelital** APRSAT
+
 ### En el mapa de _Ground Stations_
 Tendremos todo preparado tras unas últimas tareas administrativas como la conexión a la red local, el cambio de password de administración y NAT de puertos para el acceso fuera de nuestra red.
 
@@ -162,5 +175,6 @@ El backoffice del sistema ofrece un mapa on-line de las estaciones activas en el
 https://status.othernet.is/
 
 # Agradecimientos
-- Toni Lupianez [@tonilupi](https://twitter.com/tonilupi)
-- IES?
+- A Toni Lupianez [@tonilupi](https://twitter.com/tonilupi) por hacer su magia Maker con el tornillo elevador.
+- A mi hija Carolina por ayudarme a trasladar la antena.
+- Al profesor Iker Rez. Gorostizaga por su apoyo académico.  
