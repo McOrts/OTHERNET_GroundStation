@@ -40,7 +40,7 @@ El PIRE es la Potencia Isotrópica Radiada Equivalente. Simplificando mucho, est
 <img src="./img/4L_antena.png" width=300 align="right" />
 
 ## La antena
-Aunque como hemos visto, captar la señal Othernet no me requiere un elemento receptor muy grande. He elegido una parábola grande porque tengo interés en reutilizar la instalación para conexiones con otros satélites como el Es'hail 2 / QO-100 que necesitan más ganancia.
+Aunque como hemos visto, captar la señal Othernet no me requiere un elemento receptor muy grande. He elegido una parábola mayor porque tengo interés en reutilizar la instalación para conexiones con otros satélites como el Es'hail 2 / QO-100 que necesitan más ganancia.
 Y por esta razón acepté de buen gusto la donación de una maltratada antena offset de 120cm que pude transportar gracias a mi ´clásico´.
 
 ### Restauración y montaje
@@ -71,6 +71,10 @@ Una vez completado el kit de antena parabólica. El montaje no representa muchas
 6. Y finalmente se hace el ajuste del punto focal donde deberá estar el LNB. Podemos ahorrarnos los cálculos utilizando esta página web: https://www.satsig.net/pointing/finding-dish-offset-angle.htm
 <img src="./img/calculo_foco_antena.png" align="center" />
 
+### Mejora con impresión en 3D
+Usar técnica de resina (L)
+Matería deléctrico. 
+
 ### Orientación
 <img src="./img/orientacion_antena.png" width= 400 align="right" />
 
@@ -89,7 +93,7 @@ En todo caso se pueden hacer los cálculos con dos fórmulas sencillas que nos s
 - **Angulo de _offset_ (O)** 
 - - Offset = secante ( diámetro menor / diámetro mayor )
 - - sec(120/130) = 22,62°
-- **Angulo de respecto a la horizontal (H)**
+- **Angulo respecto a la horizontal (H)**
 - - H = 90 - ( E - O ) donde E es el ángulo de elevación: 39,48 en mi caso
 - - 90-(39,48-22,62) = 73,14°
 
@@ -177,4 +181,5 @@ https://status.othernet.is/
 # Agradecimientos
 - A Toni Lupianez [@tonilupi](https://twitter.com/tonilupi) por hacer su magia Maker con el tornillo elevador.
 - A mi hija Carolina por ayudarme a trasladar la antena.
-- Al profesor Iker Rez. Gorostizaga por su apoyo académico.  
+- Al profesor Iker Rez. Gorostizaga por su apoyo académico.
+- A [M0UAW](http://www.thingiverse.com/thing:3585523) autor del diseño 3D Chonky LNB Holder 32mm Arm 
