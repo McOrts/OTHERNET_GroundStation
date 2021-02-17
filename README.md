@@ -77,8 +77,6 @@ Una vez completado el kit de antena parabólica. El montaje no representa muchas
 Es fácil identificar oportunidades de mejora cuando se realiza la tarea de reconstruir algo. Hoy en día con la impresión 3D SLA en resina, se pueden crear piezas de alta resistencia y precisión. Así que con esta técnica he mejorado el soporte del LNB desde el punto de vista de:
 - **Más facilidad de apunte focal**. Ampliando los puntos de desplazamiento y nuevos ángulos ajustables.
 - **Material dielectrico**. Frente al soporte original de acero. El plástico evita apantallamiento y por lo tanto atenuación de la señal. Cierto es que las antenas ya tienen esta pieza de material plástico.
-</br>
-
 No ha sido difícil encontrar un buen diseño ya hecho gracias a que las medidas de los LNB son estándar. Así que [M0UAW](http://www.thingiverse.com/thing:3585523) he podido adaptar un diseño que encaja perfectamente con la estructura de la antena. 
 <img src="./img/LNB_soporte3D_primerplano.png" align="center" />
 
