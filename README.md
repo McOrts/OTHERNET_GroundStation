@@ -184,6 +184,11 @@ Tendremos todo preparado tras unas últimas tareas administrativas como la conex
 El backoffice del sistema ofrece un mapa on-line de las estaciones activas en el mundo. Parece que somos 3 en España aunque el número varía a consecuencia de desconexiones de mantenimiento:
 https://status.othernet.is/
 
+### Cálculo y estudio
+Como instalación experimental que es. Merece la pena hacer todo el cálculo de señal para hacer la validación con los datos medidos y conocer el márgen de mejora de redimiento.
+#### Para saber la potencia de la señal recibida, tendremos que:
+<img src="./img/CalculosDeRecepcion.png" width=500 align="center"/>
+
 # Agradecimientos
 - A Toni Lupianez [@tonilupi](https://twitter.com/tonilupi) por hacer su magia Maker con el tornillo elevador.
 - A mi hija Carolina por ayudarme a trasladar la antena.
